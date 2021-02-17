@@ -9,7 +9,7 @@ const friendSchema = new Schema(
       required: true,
     },
 
-    body: {
+    userStatus: {
       type: String,
       required: true,
     },
